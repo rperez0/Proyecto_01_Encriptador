@@ -6,13 +6,24 @@
     <title>Encriptador de Texto | By Raí Pérez</title>
     <link rel="stylesheet" href="reset.css" />    <!-- Documento para agregar el reset de estilos -->
     <link rel="stylesheet" href="style.css" />    <!-- CSS con los estilos del documento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <img src="imagenes/logotipo_a.png" class="logo" >
+    <img src="imagenes/logotipo_a.png" class="logo" />
     <form>
+      <div>
       <label for="entradaTexto"></label>
       <input type="text" id="entradaTexto" class="inputText" required placeholder="Ingrese el texto aqui"/>
+    </div>
+
+    <div class="whiteBox">
+      <img src="imagenes/Muñeco.png" class="muñecoWhiteBox"/>
+      <h1>Ningún mensaje fue encontrado</h1>
+      <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
     </form>
   </body>
 </html>
