@@ -1,130 +1,29 @@
-/* Estilos para el reto 01; Encriptador de texto Alura|Oracle */
+* {
+  background: #f3f5fc;
+  font-family: "Inter";
+}
 body {
   width: 1440px;
   height: 1024px;
-  background: #f3f5fc; /* Color casi blanco */
-  font-family: "Inter", sans-serif;
 }
 
 .logo {
-  position: absolute;
-  left: 40px;
-  top: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
-
-.textArea {
-  position: absolute;
-  color: #0a3871;
-  background: #f3f5fc;
-  border: 0;
-  width: 557px;
-  height: 48px;
-  margin: 168px 623px 808px 240px; /* Arriba | Derecha | Abajo | Izquierda */
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 150%;
+main{
+  display: flex;
  }
 
-::placeholder {
-  color: #0a3871;}
-  .textArea:focus{
-    outline: none;
-  }
-
-
-.whiteBox {
-  position: absolute;
-  background: white;
-  width: 400px;
-  height: 944px;
-  margin: 40px 40px 40px 1000px; /* Arriba | Derecha | Abajo | Izquierda */
-  border-radius: 32px;
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+.textArea{
+color: #0A3871;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+::placeholder{
+  color: #0A3871;
 }
 
-.muñecoWhiteBox {
-  position: absolute;
-  margin: 283px 32px 397px 32px; /* Arriba | Derecha | Abajo | Izquierda */
-}
 
-div h1 {
-  color: #343a40;
-  position: absolute;
-  width: 336px;
-  height: 58px;
-  margin: 619px 32px; /* Arriba | Derecha | Abajo | Izquierda */
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 120%;
-  text-align: center;
-}
-div p {
-  width: 336px;
-  height: 48px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  text-align: center;
-  color: #495057;
-  margin: 693px 32px;
-}
-
-.logoExclamacion {
-  position: absolute;
-  padding: 852px 1184px 156px 240px;
-}
-
-.recordatorio {
-  color: #495057;
-  opacity: 0.8;
-  position: absolute;
-  width: 205px;
-  height: 18px;
-  margin: 851px 971px 155px 264px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-}
-
-.botones {
-  position: absolute;
-  width: 680px;
-  height: 67px;
-  margin: 885px 0px 0px 240px; /* Arriba | Derecha | Abajo | Izquierda */
-
-}
-
-.encriptar {
-  width: 328px;
-  height: 67px;
-  background: #0a3871;
-  color: white;
-  border: none;
-  border-radius: 24px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  margin-right: 19px;
-  padding: 24px;
-  cursor: pointer;
-}
-
-.desencriptar {
-  width: 328px;
-  height: 67px;
-  background: #d8dfe8;
-  border: 1px solid #0a3871;
-  border-radius: 24px;
-  color: #0a3871;
-  padding: 24px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  cursor: pointer;
-}

@@ -8,15 +8,32 @@
     <!-- Documento para agregar el reset de estilos -->
     <link rel="stylesheet" href="style.css" />
     <!-- CSS con los estilos del documento -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <img class="logo" src="imagenes/logotipo_a.png" alt="Logo de Alura" />
+    </header>
+    <main>
+      <section>
+        <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <div>
+          <img class="exclamationLogo" src="imagenes/warning.png">
+          <h6>Solo letras minúsculas y sin acentos</h6>
+        </div>
+        <div class="botones">
+          <button class="btnEncrypt">Encriptar</button>
+          <button class="btnDecrypt">Desencriptar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="decryptArea" id="" cols="30" rows="10"></textarea>
+        <div>
+          <button class="btnCopy">Copiar</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
